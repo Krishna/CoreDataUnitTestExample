@@ -18,7 +18,6 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28D3F202112F7DC200FD0661 /* CoreDataUnitTestExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* CoreDataUnitTestExample.xcdatamodeld */; };
 		D7E543B912F468730088CF46 /* CoreDataUnitTestExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* CoreDataUnitTestExample.xcdatamodeld */; };
-		D7E543C312F468EA0088CF46 /* BasicTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E543C212F468EA0088CF46 /* BasicTestCase.m */; };
 		D7E543CE12F46FA20088CF46 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D7E543CD12F46FA20088CF46 /* README.markdown */; };
 		D7E543DC12F4881C0088CF46 /* _LCYWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E543D612F4881C0088CF46 /* _LCYWorkout.m */; };
 		D7E543DD12F4881C0088CF46 /* _LCYSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E543D812F4881C0088CF46 /* _LCYSet.m */; };
@@ -36,6 +35,8 @@
 		D7E544D912F4888E0088CF46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		D7E544DA12F4888E0088CF46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		D7E544DB12F4888E0088CF46 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		D7E544EC12F48ADB0088CF46 /* BasicTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E544EA12F48ADB0088CF46 /* BasicTestCase.m */; };
+		D7E544EF12F48F1B0088CF46 /* LCYCoreDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E544ED12F48F1B0088CF46 /* LCYCoreDataTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +57,6 @@
 		8D1107310486CEB800E47090 /* CoreDataUnitTestExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoreDataUnitTestExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D7E543AC12F4683D0088CF46 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E543AD12F4683D0088CF46 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		D7E543C112F468EA0088CF46 /* BasicTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTestCase.h; sourceTree = "<group>"; };
-		D7E543C212F468EA0088CF46 /* BasicTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTestCase.m; sourceTree = "<group>"; };
 		D7E543CD12F46FA20088CF46 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		D7E543D312F486BF0088CF46 /* mogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mogen.sh; sourceTree = "<group>"; };
 		D7E543D612F4881C0088CF46 /* _LCYWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _LCYWorkout.m; sourceTree = "<group>"; };
@@ -72,6 +71,10 @@
 		D7E543E512F488380088CF46 /* LCYSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYSet.h; sourceTree = "<group>"; };
 		D7E543E612F488380088CF46 /* LCYExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYExercise.m; sourceTree = "<group>"; };
 		D7E543E712F488380088CF46 /* LCYExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYExercise.h; sourceTree = "<group>"; };
+		D7E544EA12F48ADB0088CF46 /* BasicTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTestCase.m; path = Classes/BasicTestCase.m; sourceTree = "<group>"; };
+		D7E544EB12F48ADB0088CF46 /* BasicTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTestCase.h; path = Classes/BasicTestCase.h; sourceTree = "<group>"; };
+		D7E544ED12F48F1B0088CF46 /* LCYCoreDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCYCoreDataTestCase.m; path = Classes/LCYCoreDataTestCase.m; sourceTree = "<group>"; };
+		D7E544EE12F48F1B0088CF46 /* LCYCoreDataTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCYCoreDataTestCase.h; path = Classes/LCYCoreDataTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +174,10 @@
 		D7E543C012F468CE0088CF46 /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D7E543C112F468EA0088CF46 /* BasicTestCase.h */,
-				D7E543C212F468EA0088CF46 /* BasicTestCase.m */,
+				D7E544EE12F48F1B0088CF46 /* LCYCoreDataTestCase.h */,
+				D7E544ED12F48F1B0088CF46 /* LCYCoreDataTestCase.m */,
+				D7E544EA12F48ADB0088CF46 /* BasicTestCase.m */,
+				D7E544EB12F48ADB0088CF46 /* BasicTestCase.h */,
 			);
 			name = "Unit Tests";
 			sourceTree = "<group>";
@@ -181,12 +186,12 @@
 			isa = PBXGroup;
 			children = (
 				D7E543D512F488010088CF46 /* Mogen Generated */,
-				D7E543E212F488380088CF46 /* LCYWorkout.m */,
 				D7E543E312F488380088CF46 /* LCYWorkout.h */,
-				D7E543E412F488380088CF46 /* LCYSet.m */,
+				D7E543E212F488380088CF46 /* LCYWorkout.m */,
 				D7E543E512F488380088CF46 /* LCYSet.h */,
-				D7E543E612F488380088CF46 /* LCYExercise.m */,
+				D7E543E412F488380088CF46 /* LCYSet.m */,
 				D7E543E712F488380088CF46 /* LCYExercise.h */,
+				D7E543E612F488380088CF46 /* LCYExercise.m */,
 			);
 			name = "Core Data Model Classes";
 			sourceTree = "<group>";
@@ -327,13 +332,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E543B912F468730088CF46 /* CoreDataUnitTestExample.xcdatamodeld in Sources */,
-				D7E543C312F468EA0088CF46 /* BasicTestCase.m in Sources */,
 				D7E543DC12F4881C0088CF46 /* _LCYWorkout.m in Sources */,
 				D7E543DD12F4881C0088CF46 /* _LCYSet.m in Sources */,
 				D7E543DE12F4881C0088CF46 /* _LCYExercise.m in Sources */,
 				D7E543E812F488380088CF46 /* LCYWorkout.m in Sources */,
 				D7E543E912F488380088CF46 /* LCYSet.m in Sources */,
 				D7E543EA12F488380088CF46 /* LCYExercise.m in Sources */,
+				D7E544EC12F48ADB0088CF46 /* BasicTestCase.m in Sources */,
+				D7E544EF12F48F1B0088CF46 /* LCYCoreDataTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
