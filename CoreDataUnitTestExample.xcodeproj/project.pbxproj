@@ -37,6 +37,7 @@
 		D7E544DB12F4888E0088CF46 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
 		D7E544EC12F48ADB0088CF46 /* BasicTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E544EA12F48ADB0088CF46 /* BasicTestCase.m */; };
 		D7E544EF12F48F1B0088CF46 /* LCYCoreDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E544ED12F48F1B0088CF46 /* LCYCoreDataTestCase.m */; };
+		D7E544F412F493AB0088CF46 /* WorkoutTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E544F312F493AB0088CF46 /* WorkoutTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,8 @@
 		D7E544EB12F48ADB0088CF46 /* BasicTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTestCase.h; path = Classes/BasicTestCase.h; sourceTree = "<group>"; };
 		D7E544ED12F48F1B0088CF46 /* LCYCoreDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCYCoreDataTestCase.m; path = Classes/LCYCoreDataTestCase.m; sourceTree = "<group>"; };
 		D7E544EE12F48F1B0088CF46 /* LCYCoreDataTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCYCoreDataTestCase.h; path = Classes/LCYCoreDataTestCase.h; sourceTree = "<group>"; };
+		D7E544F212F493AB0088CF46 /* WorkoutTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutTestCase.h; sourceTree = "<group>"; };
+		D7E544F312F493AB0088CF46 /* WorkoutTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 				D7E544ED12F48F1B0088CF46 /* LCYCoreDataTestCase.m */,
 				D7E544EA12F48ADB0088CF46 /* BasicTestCase.m */,
 				D7E544EB12F48ADB0088CF46 /* BasicTestCase.h */,
+				D7E544F212F493AB0088CF46 /* WorkoutTestCase.h */,
+				D7E544F312F493AB0088CF46 /* WorkoutTestCase.m */,
 			);
 			name = "Unit Tests";
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				D7E543EA12F488380088CF46 /* LCYExercise.m in Sources */,
 				D7E544EC12F48ADB0088CF46 /* BasicTestCase.m in Sources */,
 				D7E544EF12F48F1B0088CF46 /* LCYCoreDataTestCase.m in Sources */,
+				D7E544F412F493AB0088CF46 /* WorkoutTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
