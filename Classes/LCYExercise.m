@@ -2,6 +2,11 @@
 
 @implementation LCYExercise
 
-// Custom logic goes here.
++ (LCYExercise *) insertWithName: (NSString *) name inManagedObjectContext: (NSManagedObjectContext *) moc;
+{
+	LCYExercise *result = [self insertInManagedObjectContext:moc];
+	result.name = name;
+	return result;
+}
 
 @end

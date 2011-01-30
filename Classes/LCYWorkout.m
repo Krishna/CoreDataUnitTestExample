@@ -2,6 +2,11 @@
 
 @implementation LCYWorkout
 
-// Custom logic goes here.
++ (LCYWorkout *) insertWithDate: (NSDate *) date inManagedObjectContext: (NSManagedObjectContext *) moc;
+{
+	LCYWorkout *result = [self insertInManagedObjectContext:moc];
+	result.date = date;
+	return result;
+}
 
 @end
